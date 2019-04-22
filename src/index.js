@@ -15,7 +15,6 @@ import ReactDOM from 'react-dom';
 import './assets/cover.css';
 import './assets/education.css';
 
-import Game from './Game';
 import Home from './js/Home';
 import Education from './js/Education';
 import Notfound from './js/notfound';
