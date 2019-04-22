@@ -22,6 +22,7 @@ import Notfound from './js/notfound';
 import Experience from './js/Experience';
 import Training from './js/Training';
 import Awards from './js/Awards';
+import Projects from './js/Projects';
 
 import * as serviceWorker from './serviceWorker';
 library.add(fab, faCheckSquare, faCoffee);
@@ -34,6 +35,7 @@ const routing = (
       <Route  path="/Experience" component={Experience} />
       <Route  path="/Training" component={Training} />
       <Route  path="/Awards" component={Awards} />
+      <Route  path="/Projects" component={Projects} />
 
 
   </Router>
