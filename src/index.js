@@ -22,6 +22,8 @@ import Experience from './js/Experience';
 import Training from './js/Training';
 import Awards from './js/Awards';
 import Projects from './js/Projects';
+import Events from './js/Events';
+import Travel from './js/Travel';
 
 import * as serviceWorker from './serviceWorker';
 library.add(fab, faCheckSquare, faCoffee);
@@ -35,7 +37,8 @@ const routing = (
       <Route  path="/Training" component={Training} />
       <Route  path="/Awards" component={Awards} />
       <Route  path="/Projects" component={Projects} />
-
+      <Route  path="/Events" component={Events} />
+      <Route  path="/Travel" component={Travel} />
 
   </Router>
 )

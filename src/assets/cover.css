@@ -12,7 +12,6 @@ a:hover {
   width: 100%;
   padding: 25px;
   background-color: coral;
-  color: white;
   font-size: 25px;
 }
 /* Custom default button */
@@ -47,8 +46,6 @@ body {
   -ms-flex-pack: center;
   -webkit-box-pack: center;
   justify-content: center;
-  color: #fff;
-  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }
 .align-center{
   text-align: center;
@@ -64,7 +61,6 @@ body {
 
 .card-img-top {
   min-width: 80%;
-  width: auto;
   height: auto;
 object-fit: cover;
 
@@ -74,6 +70,7 @@ object-fit: cover;
 .container{
   margin-top: 40px;
   margin-bottom: 16px;
+  color: white;
 }
 .cover-container {
   margin-left: 24px;
